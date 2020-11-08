@@ -13,13 +13,16 @@ body {
       flex-direction: row;
       text-align: center;
       border: 2px solid black;
+
       .items {
         background-color: whitesmoke;
+        height: 200px;
         margin: 0;
         padding: 10px;
         font-size: 30px;
         width: 50%;
         border: 1px solid black;
+        overflow: auto;
         .item {
           text-align: center;
           font-size: 20px;
